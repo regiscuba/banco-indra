@@ -1,0 +1,25 @@
+.register{
+    margin: 0 auto;
+    margin-top: 8%;
+    padding-bottom: 100px;
+}
+.register .form-control{
+    outline: none;
+    box-shadow: none;
+}
+.register .form-control:focus{
+    border: .5px solid #FE6603;
+}
+.register button{
+    margin-top: 15px;
+    width: 30%;    
+    background: #FE6603;
+    border-color: #FE6603;
+    color: #ffffff;
+    text-transform: uppercase;
+}
+@media(max-width:767px){
+    .register{
+        padding:50px 15px;
+    }
+}

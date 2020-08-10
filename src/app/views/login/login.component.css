@@ -1,0 +1,27 @@
+.login{
+    padding: 50px;
+    background: #ec7000;
+    border-radius: 6px;
+    box-shadow: 0 5px 10px #00000024;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+.login label{
+    color: #ffffff;
+}
+.login .form-control::placeholder{
+    color: #cccccc;
+}
+.login button{
+    margin: 0 auto;
+    width: 50%;
+    margin-left: 25%;
+    background: #003399;
+    border-color: #003399;
+    color: #fdfe01;
+}
+@media(max-width:767px){
+    .login{
+        width: 90%;
+    }
+}

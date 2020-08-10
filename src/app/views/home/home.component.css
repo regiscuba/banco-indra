@@ -1,0 +1,8 @@
+.banner_principal img{
+    width: 100vw;
+}
+@media(max-width:767px){
+    .banner_principal{
+        margin-top: 70px;
+    }
+}
